@@ -1,4 +1,5 @@
-const calculator = require('./calculator');
+import calculator from './calculator';
+import { expect, test } from 'vitest';
 
 test('Performing arithmetic operations using the calculator function', () => {
   // Test case inputs
@@ -16,4 +17,7 @@ test('Performing arithmetic operations using the calculator function', () => {
 
   // Division
   expect(calculator(num1, num2, '/')).toBeCloseTo(0.7143, 4);
+
+  // Invalid operator
+  expect(() => calculator(num1, num2, "&")).toThrow();
 });

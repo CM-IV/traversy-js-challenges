@@ -1,3 +1,7 @@
-function countVowels() {}
+function countVowels(myStr) {
+    const matchArr = myStr.toLowerCase().match(/[aeiou]/gi);
 
-module.exports = countVowels;
+    return matchArr.length;
+}
+
+export default countVowels;

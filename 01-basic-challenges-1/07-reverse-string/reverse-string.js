@@ -1,3 +1,11 @@
-function reverseString() {}
+function reverseString(myString) {
+    const charsArr = myString.split("");
 
-module.exports = reverseString;
+    const reverseString = charsArr.reverse();
+
+    const res = reverseString.join("");
+
+    return res;
+}
+
+export default reverseString;

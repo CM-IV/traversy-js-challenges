@@ -1,3 +1,5 @@
-function findMaxNumber() {}
+function findMaxNumber(myArr) {
+    return Math.max(...myArr);
+}
 
-module.exports = findMaxNumber;
+export default findMaxNumber;

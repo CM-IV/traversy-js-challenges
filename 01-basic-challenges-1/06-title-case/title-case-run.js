@@ -1,4 +1,4 @@
-const titleCase = require('./title-case');
+import titleCase from './title-case';
 
 const result = titleCase('the quick brown fox');
 

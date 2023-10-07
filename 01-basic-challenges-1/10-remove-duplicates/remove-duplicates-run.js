@@ -1,4 +1,4 @@
-const removeDuplicates = require('./remove-duplicates');
+import removeDuplicates from './remove-duplicates';
 
 const result = removeDuplicates([
   1,

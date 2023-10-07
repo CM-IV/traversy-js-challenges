@@ -57,4 +57,4 @@ function reverseString(str) {
   return reversed;
 }
 
-module.exports = isPalindrome;
+export default isPalindrome;

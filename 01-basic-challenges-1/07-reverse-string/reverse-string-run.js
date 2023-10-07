@@ -1,4 +1,4 @@
-const reverseString = require('./reverse-string');
+import reverseString from './reverse-string';
 
 const result = reverseString('hello world');
 

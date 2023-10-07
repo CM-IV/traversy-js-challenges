@@ -1,4 +1,5 @@
-const findMaxNumber = require('./find-max-number');
+import findMaxNumber from './find-max-number';
+import { expect, test } from 'vitest';
 
 test('Finding the maximum number in an array', () => {
   expect(findMaxNumber([1, 5, 3, 9, 2])).toBe(9);

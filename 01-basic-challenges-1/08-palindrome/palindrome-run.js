@@ -1,4 +1,4 @@
-const isPalindrome = require('./palindrome');
+import isPalindrome from './palindrome';
 
 const result1 = isPalindrome('racecar');
 const result2 = isPalindrome('racecars');

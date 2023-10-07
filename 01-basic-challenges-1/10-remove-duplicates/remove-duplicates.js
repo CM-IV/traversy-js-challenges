@@ -1,3 +1,13 @@
-function removeDuplicates() {}
+function removeDuplicates(myArr) {
+    let dedupedArr = [];
+    
+    const mySet = new Set(myArr);
 
-module.exports = removeDuplicates;
+    mySet.forEach((val) => {
+        dedupedArr.push(val);
+    })
+
+    return dedupedArr;
+}
+
+export default removeDuplicates;

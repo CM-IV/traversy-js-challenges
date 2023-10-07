@@ -1,4 +1,5 @@
-const countOccurrences = require('./count-occurrences');
+import countOccurrences from './count-occurrences';
+import { expect, test } from 'vitest';
 
 test('Count Occurrences of a Character', () => {
   expect(countOccurrences('hello', 'l')).toBe(2);

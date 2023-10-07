@@ -3,4 +3,4 @@ function getSum(a, b) {
   return a + b;
 }
 
-module.exports = getSum;
+export default getSum;

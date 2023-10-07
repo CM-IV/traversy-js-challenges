@@ -19,4 +19,4 @@ function reverseString(str) {
   return reversed;
 }
 
-module.exports = reverseString;
+export default reverseString;

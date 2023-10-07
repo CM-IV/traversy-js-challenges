@@ -1,4 +1,5 @@
-const isPalindrome = require('./palindrome');
+import isPalindrome from './palindrome';
+import { expect, test } from 'vitest';
 
 test('Checking for palindrome strings', () => {
   expect(isPalindrome('racecar')).toBe(true);

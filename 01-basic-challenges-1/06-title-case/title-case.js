@@ -1,3 +1,9 @@
-function titleCase() {}
+function titleCase(myString) {
+    const pattern = /\b\w/g;
 
-module.exports = titleCase;
+    const result = myString.replace(pattern, (s) => s.toUpperCase());
+
+    return result;
+}
+
+export default titleCase;
