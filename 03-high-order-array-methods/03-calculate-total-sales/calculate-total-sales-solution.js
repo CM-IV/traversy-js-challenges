@@ -12,4 +12,4 @@ function calculateTotalSalesWithTax(products, taxRate) {
   return parseFloat(totalSalesWithTax.toFixed(2));
 }
 
-module.exports = calculateTotalSalesWithTax;
+export default calculateTotalSalesWithTax;

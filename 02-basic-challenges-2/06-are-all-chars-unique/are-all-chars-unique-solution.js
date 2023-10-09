@@ -40,4 +40,4 @@ function areAllCharactersUnique(str) {
   return true;
 }
 
-module.exports = areAllCharactersUnique;
+export default areAllCharactersUnique;

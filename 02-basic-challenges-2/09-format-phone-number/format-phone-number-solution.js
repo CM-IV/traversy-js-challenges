@@ -29,4 +29,4 @@ const formatPhoneNumber = (numbers) =>
     .slice(6)
     .join('')}`;
 
-module.exports = formatPhoneNumber;
+export default formatPhoneNumber;

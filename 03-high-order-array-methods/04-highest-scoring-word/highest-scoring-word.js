@@ -1,3 +1,5 @@
-function highestScoringWord() {}
+function highestScoringWord(str) {
+    
+}
 
-module.exports = highestScoringWord;
+export default highestScoringWord;

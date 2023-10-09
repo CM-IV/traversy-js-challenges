@@ -1,4 +1,4 @@
-const calculateTotalSalesWithTax = require('./calculate-total-sales.js');
+import calculateTotalSalesWithTax from './calculate-total-sales.js';
 
 const products = [
   { name: 'Apple', price: 0.5, quantity: 10 },

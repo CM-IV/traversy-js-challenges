@@ -1,4 +1,4 @@
-const fizzBuzzArray = require('./fizzbuzz-array');
+import fizzBuzzArray from './fizzbuzz-array';
 
 test('FizzBuzz Array', () => {
   expect(fizzBuzzArray(15)).toEqual([

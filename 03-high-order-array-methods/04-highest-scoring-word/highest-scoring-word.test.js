@@ -1,4 +1,4 @@
-const highestScoringWord = require('./highest-scoring-word');
+import highestScoringWord from './highest-scoring-word';
 
 test('Finding the highest scoring word', () => {
   expect(highestScoringWord('hello my name is xavier')).toBe('xavier');

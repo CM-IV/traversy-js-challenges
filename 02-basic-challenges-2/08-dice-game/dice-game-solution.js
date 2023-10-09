@@ -31,5 +31,5 @@ function diceGameSimulation(numSimulations) {
   return results; // Return the array of simulation results
 }
 
-module.exports = diceGameSimulation; // Export the diceGameSimulation function
+export default diceGameSimulation; // Export the diceGameSimulation function
 ``;

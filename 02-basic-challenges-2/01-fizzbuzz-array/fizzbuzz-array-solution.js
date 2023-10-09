@@ -22,4 +22,4 @@ function fizzBuzzArray(num) {
   return arr;
 }
 
-module.exports = fizzBuzzArray;
+export default fizzBuzzArray;

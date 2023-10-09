@@ -1,4 +1,4 @@
-const areAllCharactersUnique = require('./are-all-chars-unique');
+const areAllCharactersUnique = require('./are-all-chars-unique').default;
 
 test('Unique Characters in a String', () => {
   expect(areAllCharactersUnique('abcdefg')).toBe(true);

@@ -1,3 +1,11 @@
-function calculateTotalSalesWithTax() {}
+function calculateTotalSalesWithTax(productArr, taxRate) {
+    const totalSales = productArr.reduce((sum, product) => product.price * product.quantity + sum, 0);
 
-module.exports = calculateTotalSalesWithTax;
+    const taxAmount = (totalSales * taxRate) / 100;
+
+    const salesWithTax = totalSales + taxAmount;
+
+    return salesWithTax;
+}
+
+export default calculateTotalSalesWithTax;

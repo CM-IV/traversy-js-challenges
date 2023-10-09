@@ -1,4 +1,4 @@
-const sumOfEvenSquares = require('./sum-of-even-squares');
+import sumOfEvenSquares from './sum-of-even-squares';
 
 test('Sum of even squares', () => {
   expect(sumOfEvenSquares([1, 2, 3, 4, 5])).toBe(20);

@@ -16,4 +16,4 @@ function displayLikes(names) {
   }
 }
 
-module.exports = displayLikes;
+export default displayLikes;

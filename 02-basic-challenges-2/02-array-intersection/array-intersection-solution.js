@@ -32,4 +32,4 @@ function arrayIntersection(arr1, arr2) {
   return intersection;
 }
 
-module.exports = arrayIntersection;
+export default arrayIntersection;

@@ -37,4 +37,4 @@ function findMissingLetter(arr) {
   return '';
 }
 
-module.exports = findMissingLetter;
+export default findMissingLetter;

@@ -13,4 +13,4 @@ function findMissingNumber(arr) {
   return expectedSum - actualSum;
 }
 
-module.exports = findMissingNumber;
+export default findMissingNumber;

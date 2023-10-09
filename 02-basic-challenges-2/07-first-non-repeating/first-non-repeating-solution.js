@@ -41,4 +41,4 @@ function findFirstNonRepeatingCharacter(str) {
   return null;
 }
 
-module.exports = findFirstNonRepeatingCharacter;
+export default findFirstNonRepeatingCharacter;
